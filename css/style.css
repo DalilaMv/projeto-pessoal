@@ -1,0 +1,71 @@
+/* Fonte da letra dos <li> */
+li{
+    font-family: 'Raleway';
+}
+
+/* Distância dos <li> de Especialidades */
+#Especialidades{
+    top: 90px !important;
+}
+
+/* Centraliza o NavBar */
+.nav-wrapper ul.center {
+    display: block;
+    width: auto;
+}
+
+.nav-wrapper > ul.center li {
+    float: none;
+    display: inline-block;
+}
+
+/* Distância do topo do NavBar */
+.lina{
+    margin-top: 25px;
+}
+
+/* Cor dos botões do Carousel */
+.carousel .indicators .indicator-item.active {
+    background-color: rgb(145, 85, 167);
+}
+
+/* Posição dos botões do Carousel */
+.caoursel .indicators {
+    bottom: 60px;
+    z-index: 100;
+}
+
+/*Cards Colors*/
+#card1{
+    background-color: rgba(109, 204, 163, 0.9);
+}
+#card2{
+    background-color: rgba(13, 178, 107, 0.9);
+}
+#card3{
+    background-color: rgba(9, 119, 71, 0.9);
+}
+
+/* Cor verde do texto "Historia..." */
+.corVerdeTexto, #Atfooter{
+    color: #0DB26B;
+}
+
+/*Fonte para esse tipo de tags*/
+p, span, h5,h4, #Atfooter{
+    font-family: raleway, sans-serif;
+}
+
+.topicos{
+    color: #605E5E;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+
+/* Cor background Sobre Nos*/
+.title-background{
+    background-color: rgba(109, 204, 163, 0.9) !important; 
+}
