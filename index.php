@@ -88,18 +88,23 @@ require_once('navbar.php');
 
     <div class="container">
         <div class="row">
-            <nav class="nav-extended green darken-3">
-                <div class="nav-content">
-                    <ul class="tabs tabs-transparent">
-                        <li class="tab"><a href="#home"> Home </a></li>
-                        <li class="tab"><a href="#capitulo"> Capítulo </a></li>
-                        <li class="tab"><a href="#ap"> Apartamento </a></li>
-                        <li class="tab"><a href="#shop"> Shopping </a></li>
-                        <li class="tab"><a href="#leilao"> Leilão </a></li>
-                        <li class="tab"><a href="#forum"> Fórum </a></li>
-                    </ul>
-                </div>
-            </nav>
+            <div class="col s9">
+                <nav class="nav-extended green darken-3">
+                    <div class="nav-content">
+                        <ul class="tabs tabs-transparent">
+                            <li class="tab"><a href="#home"> Home </a></li>
+                            <li class="tab"><a href="#capitulo"> Capítulo </a></li>
+                            <li class="tab"><a href="#ap"> Apartamento </a></li>
+                            <li class="tab"><a href="#shop"> Shopping </a></li>
+                            <li class="tab"><a href="#leilao"> Leilão </a></li>
+                            <li class="tab"><a href="#forum"> Fórum </a></li>
+                        </ul>
+                    </div>
+                </nav>
+            </div>
+            <div class="col s3">
+
+            </div>
             <div class="col s12 m12 112 container z-depth-5">
                 <div class="card-panel z-depth-5">
                     <div id="home" class="row">
