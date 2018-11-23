@@ -103,7 +103,16 @@ require_once('navbar.php');
                 </nav>
             </div>
             <div class="col s3">
-
+                <ul class="collection">
+                    <li class="collection-item avatar">
+                        <img src="Imgs/user.jpg" alt="" class="circle">
+                        <span class="title">Title</span>
+                        <p>First Line <br>
+                            Second Line
+                        </p>
+                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                    </li>
+                </ul>
             </div>
             <div class="col s12 m12 112 container z-depth-5">
                 <div class="card-panel z-depth-5">
