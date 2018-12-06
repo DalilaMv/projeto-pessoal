@@ -1,5 +1,5 @@
 
-<footer class="page-footer row grey lighten-3">
+<footer class="page-footer row" style="background: #9400D3;">
     <div class="container">
         <div class="row">
             <div class="col l6 s12">

@@ -12,7 +12,7 @@ require_once('navbar.php');
     <!--Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Materialize CSS-->
-    <link rel="stylesheet" href="css/materialize.min.css">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Kalam|Nunito|Patrick+Hand|Roboto+Mono|Raleway" rel="stylesheet">
 
@@ -44,23 +44,9 @@ require_once('navbar.php');
             margin-top: 25px;
         }
 
-        /*Cards Colors*/
-        #card1 {
-            background-color: rgba(109, 204, 163, 0.9);
-        }
-
-        #card2 {
-            background-color: rgba(13, 178, 107, 0.9);
-        }
-
-        #card3 {
-            background-color: rgba(9, 119, 71, 0.9);
-        }
-
         /* Cor verde do texto "Cuide..." */
-        #cuide,
         #Atfooter {
-            color: #0DB26B;
+            color: #ffffff;
         }
 
         /*Fonte para esse tipo de tags*/
@@ -72,24 +58,38 @@ require_once('navbar.php');
             font-family: raleway, sans-serif;
         }
 
+        #principal {
+           margin-top: 38px;
+        }
+        
+        #usr {
+           margin-left: -12px;
+        }
+        
         .topicos {
             color: #605E5E;
         }
 
         body {
             overflow-x: hidden;
+            background-color: #9400D3;
         }
+        
+        /*Altera cor dos botões*/ 
+            .btn1:hover {
+                background: #FFD700 !important;
+            }
 
     </style>
 </head>
 
-<body class="grey lighten-3">
+<body>
     <br><br><br>
 
     <div class="container">
         <div class="row">
             <div class="col s9">
-                <nav class="nav-extended green darken-3">
+                <nav id="principal" class="nav-extended" style="background: #800080;">
                     <div class="nav-content">
                         <ul class="tabs tabs-transparent">
                             <li class="tab"><a href="#home"> Home </a></li>
@@ -102,17 +102,21 @@ require_once('navbar.php');
                     </div>
                 </nav>
             </div>
-            <div class="col s3">
-                <ul class="collection">
+            <div id="usr" class="col s3" style="background: #FFD700;">
+                <br>
+                <div class="col s12 m12 l12">
+                    <div class="col s12 m6 l6"><img src="Imgs/user.jpg" alt="" class="circle" style="height: 50px; width: 50px;"></div>
+                    <div class="col s12 m6 l6">
+                    <div class="row"><span class="title">MistyHarmon <br>Nível 100 </span></div>
+                    </div>
+                </div>
+                <!--<ul class="collection">
                     <li class="collection-item avatar">
                         <img src="Imgs/user.jpg" alt="" class="circle">
-                        <span class="title">Title</span>
-                        <p>First Line <br>
-                            Second Line
-                        </p>
-                        <a href="#!" class="secondary-content"><i class="material-icons">grade</i></a>
+                        <span class="title">MistyHarmon</span>
+                        <p> Nível 100 </p>
                     </li>
-                </ul>
+                </ul>-->
             </div>
             <div class="col s12 m12 112 container z-depth-5">
                 <div class="card-panel z-depth-5">
@@ -133,14 +137,14 @@ require_once('navbar.php');
                                 <br><br>
                                 <div class="row">
                                     <div class="col s12 m6 l6">
-                                        <img class="responsive-img" src="Imgs/star.png" style="height: 200px; width: 200px;">
+                                        <img class="responsive-img" src="Imgs/star.png" style="height: 150px; width: 150px;">
                                     </div>
                                     <div class="col s12 m6 l6">
-                                        <p><a class="waves-effect waves-light btn" onClick=""><i class="material-icons right">check</i> Continuar Capítulo </a></p>
+                                        <p><a class="waves-effect waves-light btn btn1" style="background: #800080;" onClick=""><i class="material-icons right">check</i> Continuar Capítulo </a></p>
                                         <p>
                                             <h5 class="col s2 right-align">70%</h5>
-                                            <div class="progress">
-                                                <div class="determinate" style="width: 70%"></div>
+                                            <div class="progress" style="background: #A9A9A9;">
+                                                <div class="determinate" style="width: 70%; background: #FFD700;"></div>
                                             </div>
                                     </div>
                                 </div>
@@ -149,17 +153,17 @@ require_once('navbar.php');
                                 <h4 class="center">FÓRUM</h4>
                                 <h5> Destaques </h5>
                                 <p class="topicos">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus id arcu eget semper.
+                                     <i class="tiny material-icons"> chevron_right </i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus id arcu eget semper.
                                 </p>
                                 <p class="topicos">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus id arcu eget semper.
+                                    <i class="tiny material-icons"> chevron_right </i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus id arcu eget semper.
                                 </p>
                                 <h5> Post oficiais </h5>
                                 <p class="topicos">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus id arcu eget semper.
+                                    <i class="tiny material-icons"> chevron_right </i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus id arcu eget semper.
                                 </p>
                                 <p class="topicos">
-                                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus id arcu eget semper.
+                                    <i class="tiny material-icons"> chevron_right </i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus id arcu eget semper.
                                 </p>
                             </div>
                         </div>
