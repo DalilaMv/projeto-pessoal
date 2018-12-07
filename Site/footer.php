@@ -1,4 +1,3 @@
-
 <footer class="page-footer row" style="background: #9400D3;">
     <div class="container">
         <div class="row">
@@ -12,7 +11,7 @@
     </div>
     <div class="footer-copyright">
         <div class="container">
-            <p class="grey-text "> © 2018 FAMOUS LOVE </p>
+            <p class="grey-text"> © 2018 FAMOUS LOVE </p>
         </div>
     </div>
 </footer>

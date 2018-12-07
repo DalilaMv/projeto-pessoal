@@ -12,7 +12,7 @@ require_once('navbar.php');
     <!--Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Materialize CSS-->
-    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Kalam|Nunito|Patrick+Hand|Roboto+Mono|Raleway" rel="stylesheet">
 
@@ -59,13 +59,13 @@ require_once('navbar.php');
         }
 
         #principal {
-           margin-top: 38px;
+            margin-top: 38px;
         }
-        
+
         #usr {
-           margin-left: -12px;
+            margin-left: -12px;
         }
-        
+
         .topicos {
             color: #605E5E;
         }
@@ -74,11 +74,19 @@ require_once('navbar.php');
             overflow-x: hidden;
             background-color: #9400D3;
         }
-        
-        /*Altera cor dos botões*/ 
-            .btn1:hover {
-                background: #FFD700 !important;
-            }
+
+        /*Altera cor dos botões*/
+        .btn1:hover {
+            background: #FFD700 !important;
+        }
+
+        .rd1 {
+            border-radius: 10px 10px 0px 0px;
+        }
+
+        .rd2 {
+            border-radius: 10px;
+        }
 
     </style>
 </head>
@@ -89,9 +97,9 @@ require_once('navbar.php');
     <div class="container">
         <div class="row">
             <div class="col s9">
-                <nav id="principal" class="nav-extended" style="background: #800080;">
+                <nav id="principal" class="nav-extended rd1" style="background: #800080;">
                     <div class="nav-content">
-                        <ul class="tabs tabs-transparent">
+                        <ul class="tabs tabs-transparent rd1">
                             <li class="tab"><a href="#home"> Home </a></li>
                             <li class="tab"><a href="#capitulo"> Capítulo </a></li>
                             <li class="tab"><a href="#ap"> Apartamento </a></li>
@@ -102,12 +110,12 @@ require_once('navbar.php');
                     </div>
                 </nav>
             </div>
-            <div id="usr" class="col s3" style="background: #FFD700;">
+            <div id="usr" class="col s3 rd1" style="background: #FFD700;">
                 <br>
                 <div class="col s12 m12 l12">
                     <div class="col s12 m6 l6"><img src="Imgs/user.jpg" alt="" class="circle" style="height: 50px; width: 50px;"></div>
                     <div class="col s12 m6 l6">
-                    <div class="row"><span class="title">MistyHarmon <br>Nível 100 </span></div>
+                        <div class="row"><span class="title">MistyHarmon <br>Nível 100 </span></div>
                     </div>
                 </div>
                 <!--<ul class="collection">
@@ -118,8 +126,8 @@ require_once('navbar.php');
                     </li>
                 </ul>-->
             </div>
-            <div class="col s12 m12 112 container z-depth-5">
-                <div class="card-panel z-depth-5">
+            <div class="col s12 m12 112 container z-depth-5 rd2">
+                <div class="card-panel z-depth-5 rd2">
                     <div id="home" class="row">
                         <div class="col s12 m12 l12">
                             <br><br>
@@ -153,7 +161,7 @@ require_once('navbar.php');
                                 <h4 class="center">FÓRUM</h4>
                                 <h5> Destaques </h5>
                                 <p class="topicos">
-                                     <i class="tiny material-icons"> chevron_right </i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus id arcu eget semper.
+                                    <i class="tiny material-icons"> chevron_right </i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus id arcu eget semper.
                                 </p>
                                 <p class="topicos">
                                     <i class="tiny material-icons"> chevron_right </i>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus id arcu eget semper.

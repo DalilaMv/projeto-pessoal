@@ -1,4 +1,3 @@
-
 <!-- NAVBAR -->
 <nav class="nav-extended" style="background: #800080;">
     <div class="nav-wrapper">
