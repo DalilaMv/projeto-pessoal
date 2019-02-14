@@ -1,5 +1,5 @@
 <?php
-require_once('navbar.php');
+require_once('common/navbar.php');
 ?>
 
 <!DOCTYPE html>
@@ -9,10 +9,14 @@ require_once('navbar.php');
     <title> Famous Love </title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
+    <!-- Logo na Aba do Navegador -->
+    <link rel="shortcut icon" href="Imgs/logo1.png">
     <!--Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <!-- Materialize CSS-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <!-- Import estilo.css -->
+    <link type="text/css" rel="stylesheet" href="css/style.css">
     <!-- Google Fonts -->
     <link href="https://fonts.googleapis.com/css?family=Kalam|Nunito|Patrick+Hand|Roboto+Mono|Raleway" rel="stylesheet">
 
@@ -21,74 +25,6 @@ require_once('navbar.php');
     <!--Materialize JS-->
     <script src="js/materialize.min.js"></script>
 
-    <style>
-        /* Fonte */
-        li {
-            font-family: 'Raleway';
-        }
-
-
-        /* Centraliza o NavBar */
-        .nav-wrapper ul.center {
-            display: block;
-            width: auto;
-        }
-
-        .nav-wrapper>ul.center li {
-            float: none;
-            display: inline-block;
-        }
-
-        /* Distância do topo do NavBar */
-        .lina {
-            margin-top: 25px;
-        }
-
-        /* Cor verde do texto "Cuide..." */
-        #Atfooter {
-            color: #ffffff;
-        }
-
-        /*Fonte para esse tipo de tags*/
-        p,
-        span,
-        h5,
-        h4,
-        #Atfooter {
-            font-family: raleway, sans-serif;
-        }
-
-        #principal {
-            margin-top: 38px;
-        }
-
-        #usr {
-            margin-left: -12px;
-        }
-
-        .topicos {
-            color: #605E5E;
-        }
-
-        body {
-            overflow-x: hidden;
-            background-color: #9400D3;
-        }
-
-        /*Altera cor dos botões*/
-        .btn1:hover {
-            background: #FFD700 !important;
-        }
-
-        .rd1 {
-            border-radius: 10px 10px 0px 0px;
-        }
-
-        .rd2 {
-            border-radius: 10px;
-        }
-
-    </style>
 </head>
 
 <body>
@@ -97,20 +33,20 @@ require_once('navbar.php');
     <div class="container">
         <div class="row">
             <div class="col s9">
-                <nav id="principal" class="nav-extended rd1" style="background: #800080;">
+                <nav id="principal" class="nav-extended rd1">
                     <div class="nav-content">
                         <ul class="tabs tabs-transparent rd1">
-                            <li class="tab"><a href="#home"> Home </a></li>
-                            <li class="tab"><a href="#capitulo"> Capítulo </a></li>
-                            <li class="tab"><a href="#ap"> Apartamento </a></li>
-                            <li class="tab"><a href="#shop"> Shopping </a></li>
-                            <li class="tab"><a href="#leilao"> Leilão </a></li>
+                            <li class="tab rd5"><a href="#home"> Home </a></li>
+                            <li class="tab rd5"><a href="#capitulo"> Capítulo </a></li>
+                            <li class="tab rd5"><a href="#ap"> Apartamento </a></li>
+                            <li class="tab rd5"><a href="#shop"> Shopping </a></li>
+                            <li class="tab rd5"><a href="#leilao"> Leilão </a></li>
                             <li class="tab"><a href="#forum"> Fórum </a></li>
                         </ul>
                     </div>
                 </nav>
             </div>
-            <div id="usr" class="col s3 rd1" style="background: #FFD700;">
+            <div id="usr" class="col s3 rd1">
                 <br>
                 <div class="col s12 m12 l12">
                     <div class="col s12 m6 l6"><img src="Imgs/user.jpg" alt="" class="circle" style="height: 50px; width: 50px;"></div>
@@ -118,13 +54,6 @@ require_once('navbar.php');
                         <div class="row"><span class="title">MistyHarmon <br>Nível 100 </span></div>
                     </div>
                 </div>
-                <!--<ul class="collection">
-                    <li class="collection-item avatar">
-                        <img src="Imgs/user.jpg" alt="" class="circle">
-                        <span class="title">MistyHarmon</span>
-                        <p> Nível 100 </p>
-                    </li>
-                </ul>-->
             </div>
             <div class="col s12 m12 112 container z-depth-5 rd2">
                 <div class="card-panel z-depth-5 rd2">
@@ -142,8 +71,7 @@ require_once('navbar.php');
                                         Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer pretium, nunc faucibus pellentesque pretium, quam risus ornare turpis, dictum vulputate orci neque et dolor. Integer consectetur ipsum in aliquet rhoncus. Duis scelerisque orci ut pulvinar posuere.
                                     </div>
                                 </div>
-                                <br><br>
-                                <div class="row">
+                                <div class="row rd3">
                                     <div class="col s12 m6 l6">
                                         <img class="responsive-img" src="Imgs/star.png" style="height: 150px; width: 150px;">
                                     </div>
@@ -157,7 +85,7 @@ require_once('navbar.php');
                                     </div>
                                 </div>
                             </div>
-                            <div class="col s12 m6 l6">
+                            <div class="col s12 m6 l6 rd4">
                                 <h4 class="center">FÓRUM</h4>
                                 <h5> Destaques </h5>
                                 <p class="topicos">
@@ -210,7 +138,7 @@ require_once('navbar.php');
 
     <br><br><br>
     <?php
-        require_once('footer.php');
+        require_once('common/footer.php');
         ?>
     <!-- Jquery-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>

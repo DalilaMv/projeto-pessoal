@@ -1,12 +1,8 @@
-/* Fonte da letra dos <li> */
-li{
+/* Fonte */
+li {
     font-family: 'Raleway';
 }
 
-/* Distância dos <li> de Especialidades */
-#Especialidades{
-    top: 90px !important;
-}
 
 /* Centraliza o NavBar */
 .nav-wrapper ul.center {
@@ -20,52 +16,70 @@ li{
 }
 
 /* Distância do topo do NavBar */
-.lina{
+.lina {
     margin-top: 25px;
 }
 
-/* Cor dos botões do Carousel */
-.carousel .indicators .indicator-item.active {
-    background-color: rgb(145, 85, 167);
+/* Cor verde do texto "Cuide..." */
+#Atfooter {
+    color: #ffffff;
 }
 
-/* Posição dos botões do Carousel */
-.caoursel .indicators {
-    bottom: 60px;
-    z-index: 100;
-}
-
-/*Cards Colors*/
-#card1{
-    background-color: rgba(109, 204, 163, 0.9);
-}
-#card2{
-    background-color: rgba(13, 178, 107, 0.9);
-}
-#card3{
-    background-color: rgba(9, 119, 71, 0.9);
-}
-
-/* Cor verde do texto "Historia..." */
-.corVerdeTexto, #Atfooter{
-    color: #0DB26B;
+#navprin {
+    background: #800080;
+    border-radius: 0px 0px 30px 30px;
 }
 
 /*Fonte para esse tipo de tags*/
-p, span, h5,h4, #Atfooter{
+p,
+span,
+h5,
+h4,
+#Atfooter {
     font-family: raleway, sans-serif;
 }
 
-.topicos{
+#principal {
+    margin-top: 38px;
+    background: #800080;
+}
+
+#usr {
+    margin-left: -12px;
+    background: #FFD700;
+}
+
+.topicos {
     color: #605E5E;
 }
 
-body{
+body {
     overflow-x: hidden;
+    background-color: #9400D3;
 }
 
+/*Altera cor dos botões*/
+.btn1:hover {
+    background: #FFD700 !important;
+}
 
-/* Cor background Sobre Nos*/
-.title-background{
-    background-color: rgba(109, 204, 163, 0.9) !important; 
+.rd1 {
+    border-radius: 10px 10px 0px 0px;
+}
+
+.rd2 {
+    border-radius: 10px;
+}
+
+.rd3 {
+    border-top: 2px solid;
+}
+
+.rd4 {
+    border-left: 2px solid;
+}
+
+.rd5 {
+    border-color: white;
+    border-right: 2px solid;
 }

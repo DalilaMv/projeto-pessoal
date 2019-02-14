@@ -467,6 +467,7 @@
                     <li class="tab"><a href="#Botoes"> Botões </a></li>
                     <li class="tab"><a href="#Cards"> Cards </a></li>
                     <li class="tab"><a href="#PreLoader"> PreLoader </a></li>
+                    <li class="tab"><a href="#Barra"> Barra de Progresso </a></li>
                 </ul>
             </div>
         </nav>
@@ -679,7 +680,16 @@
         </div>
     </div>
 
-
+    <div id="Barra" class="col s12">
+        <br><br>
+        <h3 class="center"> Barra de Progresso </h3>
+        <div class="center">
+            <h5 class="col s2 right-align">70%</h5>
+            <div class="progress" style="background: #A9A9A9;">
+                <div class="determinate" style="width: 70%; background: #FFD700;"></div>
+            </div>
+        </div>
+    </div>
 
     <!-- Jquery-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
