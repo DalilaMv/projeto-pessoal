@@ -7,9 +7,7 @@
     <!--Import materialize.css-->
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
-    <!-- Google Font -->
-    <link href="https://fonts.googleapis.com/css?family=Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 
     <!--Let browser know website is optimized for mobile-->
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -392,19 +390,19 @@
 
         <!-- Tipografia -->
         <div id="tipografia" class="col s12">
-            <h3 class="center"> Tipografia Raleway</h3>
+            <h3 class="center"> Tipografia Varela Round</h3>
 
             <div class="row">
                 <div class="col s6 m6 l6 offset-s3 offset-m3 offset-l3">
                     <div class="card white">
                         <div class="card-content white-text">
-                            <h1 style="font-family: Raleway; color: black;"> Heading H1</h1>
-                            <h2 style="font-family: Raleway; color: black;"> Heading H2</h2>
-                            <h3 style="font-family: Raleway; color: black;"> Heading H3</h3>
-                            <h4 style="font-family: Raleway; color: black;"> Heading H4</h4>
-                            <h5 style="font-family: Raleway; color: black;"> Heading H5</h5>
-                            <h6 style="font-family: Raleway; color: black;"> Heading H6</h6>
-                            <p style="font-family: Raleway; color: black;"> Paragraphy </p>
+                            <h1 style="font-family: 'Varela Round', sans-serif; color: black;"> Heading H1</h1>
+                            <h2 style="font-family: 'Varela Round', sans-serif; color: black;"> Heading H2</h2>
+                            <h3 style="font-family: 'Varela Round', sans-serif; color: black;"> Heading H3</h3>
+                            <h4 style="font-family: 'Varela Round', sans-serif; color: black;"> Heading H4</h4>
+                            <h5 style="font-family: 'Varela Round', sans-serif; color: black;"> Heading H5</h5>
+                            <h6 style="font-family: 'Varela Round', sans-serif; color: black;"> Heading H6</h6>
+                            <p style="font-family: 'Varela Round', sans-serif; color: black;"> Paragraphy </p>
                         </div>
                     </div>
                 </div>

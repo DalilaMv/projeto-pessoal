@@ -2,7 +2,7 @@
 <nav id="navprin" class="nav-extended">
     <div class="nav-wrapper">
         <a href="index.php"><img src="Imgs/logo1.png" style="height: 55px; width: 55px; margin-top:3px; margin-left: 11px;"></a>
-        <a href="index.php" class="brand-logo" style="margin-left: 10px">Famous Love</a>
+        <a href="index.php" class="brand-logo" style="font-family: 'Varela Round', sans-serif; margin-left: 10px">Famous Love</a>
         <a data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
         <ul class="right hide-on-med-and-down">
             <li><a class="btn1" href="#">CONTA</a></li>

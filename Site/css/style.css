@@ -1,9 +1,3 @@
-/* Fonte */
-li {
-    font-family: 'Raleway';
-}
-
-
 /* Centraliza o NavBar */
 .nav-wrapper ul.center {
     display: block;
@@ -35,8 +29,9 @@ p,
 span,
 h5,
 h4,
+li,
 #Atfooter {
-    font-family: raleway, sans-serif;
+    font-family: 'Varela Round', sans-serif;
 }
 
 #principal {

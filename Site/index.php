@@ -18,7 +18,7 @@ require_once('common/navbar.php');
     <!-- Import estilo.css -->
     <link type="text/css" rel="stylesheet" href="css/style.css">
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Kalam|Nunito|Patrick+Hand|Roboto+Mono|Raleway" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Varela+Round" rel="stylesheet">
 
     <!-- Jquery-->
     <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
