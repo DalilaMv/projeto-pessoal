@@ -36,12 +36,12 @@ require_once('common/navbar.php');
                 <nav id="principal" class="nav-extended rd1">
                     <div class="nav-content">
                         <ul class="tabs tabs-transparent rd1">
-                            <li class="tab rd5"><a href="#home"> Home </a></li>
+                            <li class="tab rd6"><a href="#home"> Home </a></li>
                             <li class="tab rd5"><a href="#capitulo"> Capítulo </a></li>
                             <li class="tab rd5"><a href="#ap"> Apartamento </a></li>
                             <li class="tab rd5"><a href="#shop"> Shopping </a></li>
                             <li class="tab rd5"><a href="#leilao"> Leilão </a></li>
-                            <li class="tab"><a href="#forum"> Fórum </a></li>
+                            <li class="tab rd5"><a href="#forum"> Fórum </a></li>
                         </ul>
                     </div>
                 </nav>
