@@ -30,7 +30,7 @@ require_once('common/navbar.php');
 <body>
     <br><br><br>
 
-    <div class="container">
+    <div class="conter">
         <div class="row">
             <div class="col s9">
                 <nav id="principal" class="nav-extended rd1">
@@ -55,7 +55,7 @@ require_once('common/navbar.php');
                     </div>
                 </div>
             </div>
-            <div class="col s12 m12 112 container z-depth-5 rd2">
+            <div class="col s12 m12 112 conter z-depth-5 rd2">
                 <div class="card-panel z-depth-5 rd2">
                     <div id="home" class="row">
                         <div class="col s12 m12 l12">

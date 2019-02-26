@@ -9,6 +9,11 @@
     display: inline-block;
 }
 
+.conter {
+    margin: 0 auto;
+    width: 80%;
+}
+
 /* Distância do topo do NavBar */
 .lina {
     margin-top: 25px;
