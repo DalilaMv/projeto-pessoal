@@ -106,9 +106,7 @@ require_once('common/navbar.php');
                     </div>
 
                     <div id="capitulo" class="row">
-                        <div class="col s12 m12 l12">
-                            Capítulo
-                        </div>
+                        <embed src="Monogatari/index.html" style="width:100%; height: 100%;">
                     </div>
 
                     <div id="ap" class="row">
